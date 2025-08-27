@@ -1,6 +1,9 @@
-body {
+html, body{
+  height: 100%;
   margin: 0;
+  padding:0
 }
+
 
 header {
   background-color: white;
@@ -29,4 +32,24 @@ header {
 .hero {
   text-align: center;
   padding: 2rem;
+}
+.features{
+ display: flex;
+ flex-direction: row;
+ margin: auto;
+ max-width: 1000px;
+ text-align: left;;
+}
+.box{
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+}
+.footer {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e4e2;
+  margin-top: auto;
 }
